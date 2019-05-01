@@ -15,13 +15,10 @@ module.exports = {
     entry: {
         polyfill: "babel-polyfill",
         bundle: "./assets/js/app.js"
-    },//'./assets/js/app.js',
+    },
     output:{
         path: path.join(__dirname, "./dist"),
         filename: "[name].[chunkhash].js"
-        // path: path.join(__dirname, './dist'),
-        // filename: 'bundle.[chunkhash].js',
-        // publicPath: './dist/'
     },
     module:{
         rules:[{
